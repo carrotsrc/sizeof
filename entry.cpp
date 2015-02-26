@@ -1,3 +1,6 @@
+/* Copyright 2014, Charlie Fyvie-Gauld
+*  Distributed under the MIT License (http://opensource.org/licenses/MIT)
+*/
 #include <iostream>
 
 int main(int argc, char *argv[]) {
@@ -40,9 +43,6 @@ int main(int argc, char *argv[]) {
 	if(type == "size_t")
 		bytes = sizeof(size_t);
 	else
-	if(type == "size_t")
-		bytes = sizeof(size_t);
-	else
 	if(type == "long long")
 		bytes = sizeof(long long);
 	else
@@ -75,9 +75,6 @@ int main(int argc, char *argv[]) {
 	else
 	if(type == "wchar_t*")
 		bytes = sizeof(wchar_t*);
-	else
-	if(type == "size_t*")
-		bytes = sizeof(size_t*);
 	else
 	if(type == "size_t*")
 		bytes = sizeof(size_t*);
